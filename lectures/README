@@ -1,0 +1,9 @@
+The lecture slides are formatted using pandoc. To install pandoc, run:
+
+    cabal install pandoc -fhighlighting
+
+Slides are prepared with
+
+    pandoc --data-dir=datadir --offline -s -t slidy -o outfile infile
+
+where the datadir/slidy contains the slightly modified slidy.css in this directory.
